@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="calc">
+            <div id="calcBody">
+                <input type="text" id="display" size="12" readonly placeholder="0">
+                <div class="firstRow">
+                    <button class="btn" onclick="buttonPress('CE')">CE</button>
+                    <button class="btn" onclick="buttonPress('AC')">AC</button>
+                    <button class="btn" onclick="buttonPress('sqrt')">sqrt</button>
+                    <button class="btn" onclick="buttonPress(-1)">+/-</button>
+                </div>
+                <div class="secondRow">
+                    <button class="btn" onclick="buttonPress(7)">7</button>
+                    <button class="btn" onclick="buttonPress(8)">8</button>
+                    <button class="btn" onclick="buttonPress(9)">9</button> 
+                    <button class="btn" onclick="buttonPress('+')">+</button>
+                </div>
+                <div class="thirdRow">
+                    <button class="btn" onclick="buttonPress(4)">4</button>
+                    <button class="btn" onclick="buttonPress(5)">5</button>
+                    <button class="btn" onclick="buttonPress(6)">6</button>
+                    <button class="btn" onclick="buttonPress('-')">-</button>
+                </div>
+                <div class="fourthRow">
+                    <button class="btn" onclick="buttonPress(1)">1</button>
+                    <button class="btn" onclick="buttonPress(2)">2</button>
+                    <button class="btn" onclick="buttonPress(3)">3</button>
+                    <button class="btn" onclick="buttonPress('*')">*</button>
+
+                </div>
+                <div class="lastRow">
+                    <button class="btn" onclick="buttonPress('.')">.</button>
+                    <button class="btn" onclick="buttonPress(0)">0</button>
+                    <button class="btn" onclick="buttonPress('=')">=</button>
+                    <button class="btn" onclick="buttonPress('/')">/</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
