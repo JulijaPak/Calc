@@ -9,7 +9,7 @@
     padding: 15px;
 }
 
-.firstRow, .secondRow, .thirdRow, .fourthRow, .lastRow  {
+.row  {
     display: flex;
     justify-content: center;
 }

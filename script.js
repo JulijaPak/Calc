@@ -37,7 +37,7 @@ function buttonPress(num) {
             if (reset) {
                 display.value = num;
                 
-            }else{
+            } else {
                 display.value +=num;
             }
             reset = false;
